@@ -1,0 +1,13 @@
+package uz.pdp.warehouse.model.dto.customer;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class CustomerCreateDto {
+    private String fullName;
+    private String phone;
+    private String email;
+    private String address;
+}

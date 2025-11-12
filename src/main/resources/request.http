@@ -1,0 +1,14 @@
+POST https://localhost:8080/api/customers
+Content-Type: application/json
+Authorization: Bearer {{$auth.token("eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJub2RpcmJlayIsImV4cCI6MTc2MjUyMjE0NiwiaWF0IjoxNzYyNTIwMzQ2LCJyb2xlIjoiU1VQRVJfQURNSU4iLCJibG9ja2VkIjp0cnVlLCJ0b2tlblR5cGUiOiJBQ0NFU1MiLCJ1c2VySWQiOjF9.IjaokS1NCKXMK6k9BHjgh9-aJ1XZl_e9cErLhsk6jWL9aG9YmGzwrtqvSTfaBWck")}}
+
+{
+  "fullName": "A",
+  "phone": "098765432121",
+  "email": "dskf@gmail.com",
+  "address": "AAAAAAAAAA"
+}
+
+
+#####AUTH
+
